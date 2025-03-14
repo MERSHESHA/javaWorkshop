@@ -12,6 +12,7 @@ public class File{
             i=i+1;
 
           }
+          i=0;
           while(i<n){
             System.out.println("Entered the value:"+a[i]);
             i=i+1;
