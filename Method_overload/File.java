@@ -4,6 +4,7 @@ public class File{
             System.out.println(num);
         }
         public void sub(int num1,int num2,int num3){
+
             int num=num1-num2-num3;
             System.out.println(num);
         }
