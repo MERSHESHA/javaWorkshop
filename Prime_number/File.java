@@ -4,18 +4,18 @@ public class File{
           Scanner input=new Scanner(System.in);
           System.out.println("Enter the number");
           int num=input.nextInt();
-         boolean prime=true;
+          boolean prime=true;
          if(num<=1){
                 System.out.println("It is not a prime");
 
          }
          for(int i=2;i<num;i++){
                 if(num%i==0){
-                 prime=false;
+               prime=false;
                 }
          }
+             
         
-         
          if(prime)
          
          {
